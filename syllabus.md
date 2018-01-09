@@ -53,7 +53,7 @@ There will be two midterms, tentatively scheduled for TODO and TODO, and a final
 ### Getting Help
 
 - You should never hesitate to ask me questions. I will never think any less of anyone for asking a question. Stop by my office hours or just email me your question, which has the great benefit of forcing you to write it down in clear terms, which often helps you understand it better.
-- You are allowed, and in fact encouraged, to work together and help each other regarding the notes and the the theory. You can also discuss general questions about the programming assignments. But I expect you to work on the programming assignments on your own.
+- You are allowed, and in fact encouraged, to work together and help each other regarding the notes and the the theory. You can also discuss general questions about the homework assignments. But I expect you to work on the homework assignments on your own.
 
 ## Grading
 
