@@ -1,7 +1,7 @@
-Algorithmic Analysis
-====================
+Advanced Seminar: Graph Theory
+==============================
 
-Course website for CS 225 Algorithmic Analysis at [Hanover College](http://www.hanover.edu)
+Course website for MAT 461: Advanced Seminar: Graph Theory at [Hanover College](http://www.hanover.edu)
 
 - [Syllabus](syllabus.md)
 - [Schedule](schedule.md)
