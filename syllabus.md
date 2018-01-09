@@ -15,7 +15,7 @@ Office
   ~ SCH 121C / LYN 108
 
 Office Hours
-  ~
+  ~ MWF 10-11 in SCH 121C, T 12-2 in LYN 108, and by appointment
 
 Book
   ~ *A first course in Graph Theory*, G. Chartrand and P. Zhang
@@ -38,11 +38,11 @@ On the website you will find a [schedule](http://skiadas.github.io/GraphTheoryCo
 
 ### Class Attendance And Participation.
 
-You are expected to attend every class meeting. You are only allowed to miss 3 classes without excuse. From that point on, every unexcused absence will result in a reduction of your final score by one percentage point, up to a total of 5 points. Excused absences should be arranged in advance, and backed by appropriate documentation. Emergencies will be dealt with on an individual basis. There are very few reasons that would qualify as an excuse for an absence. During each class day you will be working on and submitting activity sheets, which will be scored as your class participation grade.
+You are expected to attend every class meeting. You are only allowed to miss 3 classes without excuse. From that point on, every unexcused absence will result in a reduction of your final score by one percentage point. Excused absences should be arranged in advance, and backed by appropriate documentation. Emergencies will be dealt with on an individual basis. There are very few reasons that would qualify as an excuse for an absence. During each class day you will be working on and submitting activity sheets, which will be scored as your class participation grade.
 
 ### Homework Assignments
 
-There will be regular written assignments, about once a week, in addition to numerous practice problems that you are expected to work on. Homework assignments will count for 20% of the final grade.
+There will be regular written assignments, about once a week, in addition to numerous practice problems that you are expected to work on. Homework assignments will count for 25% of the final grade.
 
 ### Exams
 
@@ -62,10 +62,10 @@ Your final grade depends on class attendance, homework, midterms and the final, 
       Component   Percent
 ---------------  --------
   Participation       10%
-    Assignments       15%
+    Assignments       25%
  Lowest Midterm       15%
  Middle Midterm       20%
-Highest Midterm       25%
+Highest Midterm       30%
 
 This gives a number up to 100, which is then converted to a letter grade based roughly on the following correspondence:
 
