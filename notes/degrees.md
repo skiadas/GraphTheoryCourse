@@ -1,7 +1,5 @@
 # The degree of a vertex, and regular graphs
 
-## Reading
-
 - Read 2.1, pages 31-36
     - What is the **degree** of a vertex in a graph?
         - What range of values can the degree of a vertex possibly take?

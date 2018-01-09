@@ -1,7 +1,5 @@
 # Classes of Graphs
 
-## Reading
-
 - Read 1.3, pages 19-24
     - What graph do we call a **path**? How is it denoted?
         - What relation must there be between the order and the size in a path graph?

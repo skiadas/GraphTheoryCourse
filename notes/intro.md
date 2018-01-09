@@ -1,7 +1,5 @@
 # Graph Theory
 
-## Reading
-
 - Read 1.1, pages 1-7
     - What are the elements that comprise a **graph**?
     - Can a graph have no vertices? Can it have no edges?
