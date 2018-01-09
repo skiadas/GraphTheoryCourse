@@ -1,0 +1,67 @@
+# Graph Theory
+
+## Reading
+
+- Read 1.1, pages 1-7
+    - What are the elements that comprise a **graph**?
+    - Can a graph have no vertices? Can it have no edges?
+    - Can we have two edges between the same two vertices?
+    - If we have a graph with 4 vertices, *at most* how many edges can it have?
+    - What are the **order** and the **size** of a graph?
+    - Consider example 1.3. Does every vertex have the same number of edges coming out from it? Explain.
+- Read 1.2, pages 9-17
+    - When do we say two vertices are **neighbors**?
+        - What is the largest possible number of vertices that can be neighors to one specific vertex?
+    - When do we say two edges are **adjacent**?
+        - What is the largest possible number of edges that can be adjacent to one specific vertex?
+    - What is a **subgraph** of a graph $G$?
+        - When is it called a **proper** subgraph?
+        - When is it called a **spanning** subgraph?
+            - How many spanning subgraphs can a graph have?
+        - Can we form a subgraph by choosing any subset of the vertices and any subset of the edges?
+        - When is a subgraph called an **induced** subgraph?
+            - How many (vertex-)induced subgraphs can a graph have?
+    - If $X$ is a set of edges in a graph $G$, what graph do we denote by $G-X$?
+    - If $U$ is a set of vertices in a graph $G$, what graph do we denote by $G-U$?
+    - What is a **walk** in a graph $G$?
+        - Does every graph have at least one walk?
+        - Is there always a walk from $w$ to $v$ for any two vertices in a graph $G$?
+        - If there is a walk from $w$ to $v$ in a graph $G$, is there also one from $v$ to $w$?
+        - Can a walk pass through the same vertex multiple times?
+        - When is a walk called **closed**, and when is it called **open**?
+        - What is the **length** of a walk?
+            - For a given graph $G$, is there a bound to the maximum length of a walk? Is there one sometimes?
+    - What is a **trail** in a graph $G$, and how does it differ from a walk?
+        - Can a trail traverse the same vertex more than once?
+    - What is a **path** in a graph $G$.
+    - Describe how under certain circumstances we may combine two walks into one longer walk.
+        - When is this possible?
+        - If we combine two trails this way, is the result necessarily a trail?
+        - If we combine two paths this way, is the result necessarily a path?
+    - True or False: A walk from $u$ to $v$ that has the smallest length out of all walks from $u$ to $v$ must necessarily be a path.
+    - Prove theorem 1.6: If a graph contains a $u$-$v$ walk, then it also contains a $u$-$v$ path with length at most that of the walk.
+    - What is a **circuit**? What is a **cycle**?
+    - What graphs are called **connected**?
+        - True of False: If a graph is connected, and we remove an edge, then it becomes disconnected.
+        - What are the **components** of a disconnected graph.
+        - True or False: A component of a disconnected graph must be an induced subgraph.
+        - True or False: Two components of a disconnected graph cannot possibly have a vertex in common.
+    - Prove theorem 1.7: The relation "$u$ relates to $v$ iff it is connected to it" is an equivalence relation.
+    - Consider theorem 1.8: If a graph of order at least $3$ has two distinct vertices $u$, $v$, such that $G-u$ and $G-v$ are connected graphs, then $G$ is also connected.
+        - Explain why the assumption that the vertices be distinct is needed, and why the order being at least $3$ is needed. Show by examples that the theorem fails in those cases.
+        - Prove the theorem.
+        - State the converse of the theorem.
+    - What is the **distance** between two vertices in a graph?
+        - Can the distance be $0$? When?
+        - Can the distance be $1$? When?
+        - What is the largest possible value for the distance? Can you think of an example where it is achieved?
+    - Which paths are called **geodesic**?
+        - True or False: A subgraph of a geodesic path is also geodesic.
+        - True or False: If there is a non-geodesic path in a graph, then the graph must contain a cycle.
+    - What is the **diameter** of a graph?
+        - What is the largest possible value for the diameter?
+        - Can the diameter be $0$? When?
+        - Can the diameter be $1$? When?
+    - Prove Theorem 1.9: If a graph of order at least $3$ is connected, then $G$ contains two distinct vertices $u$, $v$ such that $G-u$ and $G-v$ are both connected.
+- Practice problems:
+    - 1.11, 1.12, 1.15, 1.17

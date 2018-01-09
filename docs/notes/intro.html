@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+<link rel="stylesheet" href="https://skiadas.github.io/css/course.css" type="text/css" />
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+</head>
+<body>
+<h1 id="graph-theory">Graph Theory</h1>
+<h2 id="reading">Reading</h2>
+<ul>
+<li>Read 1.1, pages 1-7
+<ul>
+<li>What are the elements that comprise a <strong>graph</strong>?</li>
+<li>Can a graph have no vertices? Can it have no edges?</li>
+<li>Can we have two edges between the same two vertices?</li>
+<li>If we have a graph with 4 vertices, <em>at most</em> how many edges can it have?</li>
+<li>What are the <strong>order</strong> and the <strong>size</strong> of a graph?</li>
+<li>Consider example 1.3. Does every vertex have the same number of edges coming out from it? Explain.</li>
+</ul></li>
+<li>Read 1.2, pages 9-17
+<ul>
+<li>When do we say two vertices are <strong>neighbors</strong>?
+<ul>
+<li>What is the largest possible number of vertices that can be neighors to one specific vertex?</li>
+</ul></li>
+<li>When do we say two edges are <strong>adjacent</strong>?
+<ul>
+<li>What is the largest possible number of edges that can be adjacent to one specific vertex?</li>
+</ul></li>
+<li>What is a <strong>subgraph</strong> of a graph <span class="math inline">\(G\)</span>?
+<ul>
+<li>When is it called a <strong>proper</strong> subgraph?</li>
+<li>When is it called a <strong>spanning</strong> subgraph?
+<ul>
+<li>How many spanning subgraphs can a graph have?</li>
+</ul></li>
+<li>Can we form a subgraph by choosing any subset of the vertices and any subset of the edges?</li>
+<li>When is a subgraph called an <strong>induced</strong> subgraph?
+<ul>
+<li>How many (vertex-)induced subgraphs can a graph have?</li>
+</ul></li>
+</ul></li>
+<li>If <span class="math inline">\(X\)</span> is a set of edges in a graph <span class="math inline">\(G\)</span>, what graph do we denote by <span class="math inline">\(G-X\)</span>?</li>
+<li>If <span class="math inline">\(U\)</span> is a set of vertices in a graph <span class="math inline">\(G\)</span>, what graph do we denote by <span class="math inline">\(G-U\)</span>?</li>
+<li>What is a <strong>walk</strong> in a graph <span class="math inline">\(G\)</span>?
+<ul>
+<li>Does every graph have at least one walk?</li>
+<li>Is there always a walk from <span class="math inline">\(w\)</span> to <span class="math inline">\(v\)</span> for any two vertices in a graph <span class="math inline">\(G\)</span>?</li>
+<li>If there is a walk from <span class="math inline">\(w\)</span> to <span class="math inline">\(v\)</span> in a graph <span class="math inline">\(G\)</span>, is there also one from <span class="math inline">\(v\)</span> to <span class="math inline">\(w\)</span>?</li>
+<li>Can a walk pass through the same vertex multiple times?</li>
+<li>When is a walk called <strong>closed</strong>, and when is it called <strong>open</strong>?</li>
+<li>What is the <strong>length</strong> of a walk?
+<ul>
+<li>For a given graph <span class="math inline">\(G\)</span>, is there a bound to the maximum length of a walk? Is there one sometimes?</li>
+</ul></li>
+</ul></li>
+<li>What is a <strong>trail</strong> in a graph <span class="math inline">\(G\)</span>, and how does it differ from a walk?
+<ul>
+<li>Can a trail traverse the same vertex more than once?</li>
+</ul></li>
+<li>What is a <strong>path</strong> in a graph <span class="math inline">\(G\)</span>.</li>
+<li>Describe how under certain circumstances we may combine two walks into one longer walk.
+<ul>
+<li>When is this possible?</li>
+<li>If we combine two trails this way, is the result necessarily a trail?</li>
+<li>If we combine two paths this way, is the result necessarily a path?</li>
+</ul></li>
+<li>True or False: A walk from <span class="math inline">\(u\)</span> to <span class="math inline">\(v\)</span> that has the smallest length out of all walks from <span class="math inline">\(u\)</span> to <span class="math inline">\(v\)</span> must necessarily be a path.</li>
+<li>Prove theorem 1.6: If a graph contains a <span class="math inline">\(u\)</span>-<span class="math inline">\(v\)</span> walk, then it also contains a <span class="math inline">\(u\)</span>-<span class="math inline">\(v\)</span> path with length at most that of the walk.</li>
+<li>What is a <strong>circuit</strong>? What is a <strong>cycle</strong>?</li>
+<li>What graphs are called <strong>connected</strong>?
+<ul>
+<li>True of False: If a graph is connected, and we remove an edge, then it becomes disconnected.</li>
+<li>What are the <strong>components</strong> of a disconnected graph.</li>
+<li>True or False: A component of a disconnected graph must be an induced subgraph.</li>
+<li>True or False: Two components of a disconnected graph cannot possibly have a vertex in common.</li>
+</ul></li>
+<li>Prove theorem 1.7: The relation “<span class="math inline">\(u\)</span> relates to <span class="math inline">\(v\)</span> iff it is connected to it” is an equivalence relation.</li>
+<li>Consider theorem 1.8: If a graph of order at least <span class="math inline">\(3\)</span> has two distinct vertices <span class="math inline">\(u\)</span>, <span class="math inline">\(v\)</span>, such that <span class="math inline">\(G-u\)</span> and <span class="math inline">\(G-v\)</span> are connected graphs, then <span class="math inline">\(G\)</span> is also connected.
+<ul>
+<li>Explain why the assumption that the vertices be distinct is needed, and why the order being at least <span class="math inline">\(3\)</span> is needed. Show by examples that the theorem fails in those cases.</li>
+<li>Prove the theorem.</li>
+<li>State the converse of the theorem.</li>
+</ul></li>
+<li>What is the <strong>distance</strong> between two vertices in a graph?
+<ul>
+<li>Can the distance be <span class="math inline">\(0\)</span>? When?</li>
+<li>Can the distance be <span class="math inline">\(1\)</span>? When?</li>
+<li>What is the largest possible value for the distance? Can you think of an example where it is achieved?</li>
+</ul></li>
+<li>Which paths are called <strong>geodesic</strong>?
+<ul>
+<li>True or False: A subgraph of a geodesic path is also geodesic.</li>
+<li>True or False: If there is a non-geodesic path in a graph, then the graph must contain a cycle.</li>
+</ul></li>
+<li>What is the <strong>diameter</strong> of a graph?
+<ul>
+<li>What is the largest possible value for the diameter?</li>
+<li>Can the diameter be <span class="math inline">\(0\)</span>? When?</li>
+<li>Can the diameter be <span class="math inline">\(1\)</span>? When?</li>
+</ul></li>
+<li>Prove Theorem 1.9: If a graph of order at least <span class="math inline">\(3\)</span> is connected, then <span class="math inline">\(G\)</span> contains two distinct vertices <span class="math inline">\(u\)</span>, <span class="math inline">\(v\)</span> such that <span class="math inline">\(G-u\)</span> and <span class="math inline">\(G-v\)</span> are both connected.</li>
+</ul></li>
+<li>Practice problems:
+<ul>
+<li>1.11, 1.12, 1.15, 1.17</li>
+</ul></li>
+</ul>
+</body>
+</html>

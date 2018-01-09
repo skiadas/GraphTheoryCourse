@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+<link rel="stylesheet" href="https://skiadas.github.io/css/course.css" type="text/css" />
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+</head>
+<body>
+<h1 id="the-degree-of-a-vertex-and-regular-graphs">The degree of a vertex, and regular graphs</h1>
+<h2 id="reading">Reading</h2>
+<ul>
+<li>Read 2.1, pages 31-36
+<ul>
+<li>What is the <strong>degree</strong> of a vertex in a graph?
+<ul>
+<li>What range of values can the degree of a vertex possibly take?</li>
+<li>What vertices do we call <strong>leaves</strong>?</li>
+</ul></li>
+<li>What is the <strong>neighborhood</strong> of a vertex? Does a vertex belong to its neighborhood?
+<ul>
+<li>Can two vertices have the same neighborhood?</li>
+</ul></li>
+<li>What is the <strong>minimum degree</strong> and the <strong>maximum degree</strong> of a graph <span class="math inline">\(G\)</span>?
+<ul>
+<li>True or False: A graph <span class="math inline">\(G\)</span> with minimum degree <span class="math inline">\(0\)</span> must be disconnected.</li>
+<li>True or False: A graph <span class="math inline">\(G\)</span> with maximum degree equal to the largest allowable value must be connected.</li>
+<li>True or False: In every graph of order at least <span class="math inline">\(3\)</span>, the minimum degree <span class="math inline">\(\delta(G)\)</span> must be strictly smaller than the maximum degree <span class="math inline">\(\Delta(G)\)</span>.</li>
+</ul></li>
+<li>State and prove the <strong>First Theorem of Graph Theory</strong>.
+<ul>
+<li>Think about and state an improved theorem for the case of a bipartite graph.</li>
+</ul></li>
+<li>After reading through example 2.2, do exercise 2.3.</li>
+<li>Prove corollary 2.3: Every graph has an even number of “odd” vertices.</li>
+<li>Prove theorem 2.4: If <span class="math inline">\(G\)</span> is a graph of order <span class="math inline">\(n\)</span> where <span class="math inline">\(\textrm{deg}(u) + \textrm{deg}(v) \geq n-1\)</span> for any non-adjacent vertices, then <span class="math inline">\(G\)</span> is connected with diameter <span class="math inline">\(\leq 2\)</span> (This is basically an application of the pigeonhole principle).
+<ul>
+<li>Prove the corollary 2.5 of this theorem: If <span class="math inline">\(\delta(G)\geq (n-1)/2\)</span> then <span class="math inline">\(G\)</span> is connected.</li>
+<li>Show by an example that the bound is sharp: There are graphs with <span class="math inline">\(\delta(G)\)</span> equal to the first integer before <span class="math inline">\((n-1)/2\)</span> that are disconnected.</li>
+<li>How does the sum of all the in-degrees in a digraph compare to the sum of all the out-degrees?</li>
+</ul></li>
+<li>Practice problems: 2.1, 2.2, 2.5, 2.6, 2.9, 2.16</li>
+</ul></li>
+<li>Read 2.2, pages 38-41
+<ul>
+<li>When is a graph called a <strong>regular</strong> graph?</li>
+<li>Describe the <strong>Petersen</strong> graph.</li>
+<li>Explain why we can’t have a regular graph of odd order and odd degree.</li>
+<li>True or False: A graph <span class="math inline">\(G\)</span> is regular if and only if its complement <span class="math inline">\(\bar G\)</span> is regular.</li>
+<li>Describe the <strong>Harary graphs</strong> <span class="math inline">\(H_{r, n}\)</span> for <span class="math inline">\(r\leq n-1\)</span> and where not both <span class="math inline">\(r\)</span> and <span class="math inline">\(n\)</span> are odd. The construction is different depending on whether <span class="math inline">\(r\)</span> is odd or even.
+<ul>
+<li>Draw graphs of <span class="math inline">\(H_{3,8}\)</span> and <span class="math inline">\(H_{4,9}\)</span>, using Figure 2.9 as a guide.</li>
+</ul></li>
+<li>Prove theorem 2.7: For every graph <span class="math inline">\(G\)</span> and every <span class="math inline">\(r\geq \Delta(G)\)</span> there exists an <span class="math inline">\(r\)</span>-regular graph <span class="math inline">\(H\)</span> that contains <span class="math inline">\(G\)</span> as an <em>induced</em> subgraph.
+<ul>
+<li>Make sure to clearly understand the construction involved.</li>
+<li>Illustrate the construction starting with <span class="math inline">\(P_3\)</span> and using <span class="math inline">\(r=2\)</span> as well as <span class="math inline">\(r=3\)</span>.</li>
+</ul></li>
+<li>Practice problems: 2.19, 2.20, 2.29</li>
+</ul></li>
+</ul>
+</body>
+</html>
