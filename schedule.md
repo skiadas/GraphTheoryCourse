@@ -7,18 +7,20 @@ A week-by-week breakdown of the material.
 Tue
   ~ [Graph Models (1.1), Connected Graphs (1.2)](notes/intro.md)
 
-    [Activity Sheet](activities/activities1-intro.md)
+    [Activity Sheet 1](activities/activities1-intro.md)
 
 
 Thu
   ~ [Common Classes of Graphs (1.3), Multigraphs and Digraphs (1.4)](notes/graph_classes.md)
 
-    [Activity Sheet](activities/activities2-graph_classes.md)
+    [Activity Sheet 2](activities/activities2-graph_classes.md)
 
 ## Week  2 (01/15-01/19)
 
 Tue
   ~ [Degree of a Vertex (2.1), Regular Graphs (2.2)](notes/degrees.md)
+
+    [Activity Sheet 3](activities/activities3-degrees.md)
 
 Thu
   ~ Degree Sequences (2.3)
