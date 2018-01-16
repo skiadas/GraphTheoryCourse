@@ -18,46 +18,45 @@ Thu
 ## Week  2 (01/15-01/19)
 
 Tue
+  ~ Catchup
+
+Thu
   ~ [Degree of a Vertex (2.1), Regular Graphs (2.2)](notes/degrees.md)
 
     [Activity Sheet 3](activities/activities3-degrees.md)
 
-Thu
+## Week  3 (01/22-01/26)
+
+Tue
   ~ Degree Sequences (2.3)
 
     Graph Isomorphism (3.1)
 
-
-## Week  3 (01/22-01/26)
-
-Tue
+Thu
   ~ Isomorphism as a Relation (3.2)
 
     Bridges (4.1)
 
-Thu
-  ~ Trees (4.2)
-
 ## Week  4 (01/29-02/02)
 
 Tue
-  ~ Minimum Spanning Trees (4.3)
+  ~ Trees (4.2)
 
 Thu
-  ~ Cut-vertices (5.1)
+  ~ Minimum Spanning Trees (4.3)
 
 ## Week  5 (02/05-02/09)
 
 Tue
-  ~ Blocks (5.2)
+  ~ Cut-vertices (5.1)
 
 Thu
-  ~ Vertex-Connectivity (5.3)
+  ~ Blocks (5.2)
 
 ## Week  6 (02/12-02/16)
 
 Tue
-  ~ Midterm Chapters 1-5)
+  ~ Vertex-Connectivity (5.3)
 
 Thu
   ~ Eulerian Graphs (6.1)
@@ -68,7 +67,7 @@ Tue
   ~ Hamiltonian Graphs (6.2)
 
 Thu
-  ~ Strong Digraphs (7.1)
+  ~ Midterm Chapters 1-5)
 
 ## Week  8 (02/26-03/02)
 
@@ -81,48 +80,47 @@ Thu
 ## Week  9 (03/05-03/09)
 
 Tue
-  ~ Tournaments (7.2)
+  ~ Strong Digraphs (7.1)
 
 Thu
-  ~ Matchings (8.1)
+  ~ Tournaments (7.2)
 
 ## Week  10 (03/12-03/16)
 
 Tue
-  ~ Factorization (8.2)
+  ~ Matchings (8.1)
 
 Thu
-  ~ Decompositions (8.3)
+  ~ Factorization (8.2)
 
 ## Week  11 (03/19-03/23)
 
 Tue
-  ~ Midterm 2 (Chapters 6-8)
+  ~ Decompositions (8.3)
 
 Thu
-  ~ Planar Graphs (9.1)
-
+  ~ Midterm 2 (Chapters 6-8)
 
 ## Week  12 (03/26-03/30)
 
 Tue
-  ~ Discussion of the Four Color Theorem (10.1)
+  ~ Planar Graphs (9.1)
 
 Thu
-  ~ Vertex Coloring (10.2)
+  ~ Discussion of the Four Color Theorem (10.1)
 
 ## Week  13 (04/01-04/06)
 
 Tue
-  ~ Edge Coloring (10.3)
+  ~ Vertex Coloring (10.2)
 
 Thu
-  ~ Ramsey Numbers (11.1)
+  ~ Edge Coloring (10.3)
 
 ## Week  14 (04/09-04/13)
 
 Tue
-  ~ Center of a Graph (12.1)
+  ~ Ramsey Numbers (11.1)
 
 Thu
-  ~ Distant Vertices (12.2)
+  ~ Center of a Graph (12.1), Distant Vertices (12.2)
