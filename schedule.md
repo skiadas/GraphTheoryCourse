@@ -21,26 +21,30 @@ Tue
   ~ Catchup
 
 Thu
-  ~ [Degree of a Vertex (2.1), Regular Graphs (2.2)](notes/degrees.md)
+  ~ [Degree of a Vertex (2.1)](notes/degrees.md)
 
     [Activity Sheet 3](activities/activities3-degrees.md)
 
 ## Week  3 (01/22-01/26)
 
 Tue
-  ~ Degree Sequences (2.3)
+  ~ [Regular Graphs (2.2)](notes/degrees.md)
 
-    Graph Isomorphism (3.1)
+    [Degree Sequences (2.3)](notes/degree_sequences.md)
+
+    [Activity Sheet 4](activities/activities4-sequences.md)
 
 Thu
-  ~ Isomorphism as a Relation (3.2)
+  ~ Graph Isomorphism (3.1)
 
-    Bridges (4.1)
+    Isomorphism as a Relation (3.2)
 
 ## Week  4 (01/29-02/02)
 
 Tue
-  ~ Trees (4.2)
+  ~ Bridges (4.1)
+
+    Trees (4.2)
 
 Thu
   ~ Minimum Spanning Trees (4.3)
