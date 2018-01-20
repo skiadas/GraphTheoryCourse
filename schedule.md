@@ -46,6 +46,8 @@ Tue
 
     Trees (4.2)
 
+    [Assignment 1](assignments/assignment1.md)
+
 Thu
   ~ Minimum Spanning Trees (4.3)
 
