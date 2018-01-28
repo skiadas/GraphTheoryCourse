@@ -35,16 +35,16 @@ Tue
     [Activity Sheet 4](activities/activities4-sequences.md)
 
 Thu
-  ~ Graph Isomorphism (3.1)
+  ~ [Graph Isomorphism (3.1), Isomorphism as a Relation (3.2)](notes/graph_isomorphism.md)
 
-    Isomorphism as a Relation (3.2)
+    [Activity Sheet 5](activities/activities5-isomorphism.md)
 
 ## Week  4 (01/29-02/02)
 
 Tue
-  ~ Bridges (4.1)
+  ~ [Bridges (4.1)](notes/bridges.md)
 
-    Trees (4.2)
+    [Trees (4.2)](notes/trees.md)
 
     [Assignment 1](assignments/assignment1.md)
 
