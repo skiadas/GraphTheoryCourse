@@ -48,8 +48,10 @@ Tue
 
     [Assignment 1](assignments/assignment1.md)
 
+    [Activity Sheet 6](activities/activities6-trees.md)
+
 Thu
-  ~ Minimum Spanning Trees (4.3)
+  ~ [Minimum Spanning Trees (4.3)](notes/minimum_spanning_trees.md)
 
 ## Week  5 (02/05-02/09)
 

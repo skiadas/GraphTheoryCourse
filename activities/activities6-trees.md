@@ -6,10 +6,14 @@ Reporter
 Speaker
   ~ :
 
-### Section 4.1
-
 ### Section 4.2
 
-Exercise 4.15
+1. Exercise 4.15
+\vfill
+2. Exercise 4.16
+\vfill
+\newpage
 
-Exercise 4.16
+### Section 4.3
+
+3. Exercise 4.28
