@@ -44,38 +44,39 @@ Thu
 Tue
   ~ [Bridges (4.1)](notes/bridges.md)
 
-    [Trees (4.2)](notes/trees.md)
-
     [Assignment 1](assignments/assignment1.md)
 
-    [Activity Sheet 6](activities/activities6-trees.md)
 
 Thu
-  ~ [Minimum Spanning Trees (4.3)](notes/minimum_spanning_trees.md)
+  ~ [Trees (4.2)](notes/trees.md)
+
+    [Activity Sheet 6](activities/activities6-trees.md)
 
 ## Week  5 (02/05-02/09)
 
 Tue
-  ~ Cut-vertices (5.1)
+  ~ [Minimum Spanning Trees (4.3)](notes/minimum_spanning_trees.md)
 
 Thu
-  ~ Blocks (5.2)
+  ~ Cut-vertices (5.1)
 
 ## Week  6 (02/12-02/16)
 
 Tue
-  ~ Vertex-Connectivity (5.3)
+  ~ Blocks (5.2)
 
 Thu
-  ~ Eulerian Graphs (6.1)
+  ~ Vertex-Connectivity (5.3)
 
 ## Week  7 (02/19-02/23)
 
 Tue
-  ~ Hamiltonian Graphs (6.2)
+  ~ Eulerian Graphs (6.1)
+
+    Hamiltonian Graphs (6.2)
 
 Thu
-  ~ Midterm Chapters 1-5)
+  ~ Midterm Chapters 1-5
 
 ## Week  8 (02/26-03/02)
 
