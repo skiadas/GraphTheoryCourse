@@ -58,7 +58,7 @@ Tue
   ~ [Minimum Spanning Trees (4.3)](notes/minimum_spanning_trees.md)
 
 Thu
-  ~ Cut-vertices (5.1)
+  ~ [Cut-vertices (5.1)](notes/cut_vertices.md)
 
 ## Week  6 (02/12-02/16)
 
