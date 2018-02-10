@@ -58,15 +58,19 @@ Tue
   ~ [Minimum Spanning Trees (4.3)](notes/minimum_spanning_trees.md)
 
 Thu
-  ~ [Cut-vertices (5.1)](notes/cut_vertices.md)
+  ~ [Minimum Spanning Trees cont. (4.3)](notes/minimum_spanning_trees.md)
 
 ## Week  6 (02/12-02/16)
 
 Tue
-  ~ Blocks (5.2)
+  ~ [Cut-vertices (5.1)](notes/cut_vertices.md)
+
+    Blocks (5.2)
 
 Thu
   ~ Vertex-Connectivity (5.3)
+
+    [Assignment 2](assignments/assignment2.md)
 
 ## Week  7 (02/19-02/23)
 
@@ -75,8 +79,10 @@ Tue
 
     Hamiltonian Graphs (6.2)
 
+    [Assignment 3](assignments/assignment3.md)
+
 Thu
-  ~ Midterm Chapters 1-5
+  ~ Midterm Chapters 1-4
 
 ## Week  8 (02/26-03/02)
 
@@ -108,7 +114,7 @@ Tue
   ~ Decompositions (8.3)
 
 Thu
-  ~ Midterm 2 (Chapters 6-8)
+  ~ Midterm 2 (Chapters 5-8)
 
 ## Week  12 (03/26-03/30)
 

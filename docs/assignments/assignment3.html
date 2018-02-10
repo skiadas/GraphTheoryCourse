@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+<link rel="stylesheet" href="https://skiadas.github.io/css/course.css" type="text/css" />
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+</head>
+<body>
+<h1 id="assignment-3">Assignment 3</h1>
+<p>In this assignment we will find all non-isomorphic forests of order <span class="math inline">\(6\)</span>. Recall that a forest is a graph whose connected components are trees.</p>
+<ol style="list-style-type: decimal">
+<li>As preliminary work for this, you should list all non-isomorphic trees of order up to <span class="math inline">\(5\)</span>. You should find exactly one tree for orders <span class="math inline">\(1\)</span>, <span class="math inline">\(2\)</span> and <span class="math inline">\(3\)</span>, two trees for order <span class="math inline">\(4\)</span> and three trees for order <span class="math inline">\(5\)</span>. Think of the possible degree sequences as a start.</li>
+<li>Now we proceed to find all forests of order <span class="math inline">\(6\)</span> that are not trees. So they must have at least two connected components, and all those components will be amongst the trees you found in problem 1.
+<ol style="list-style-type: lower-alpha">
+<li>There are a few easy extreme cases: There is exactly one forest with six components, and one forest with five components. Find them and explain why there aren’t any more, up to isomorphism (hint: how many vertices would go to each component? There aren’t that many possibilities).</li>
+<li>There are up to isomorphism exactly two forests consisting of four components. Find them and prove that they are the only ones.</li>
+<li>There are up to isomorphism exactly four forests consisting of three components. Find them and prove that they are the only ones (hint: in terms of number of vertices that go in each component, there are exactly three possibilities; one of those possibilities has two non-isomorphic graphs corresponding to it).</li>
+<li>Finally, we look at the forests with two components. You should be finding exactly six such non-isomorphic forests, divided into three categories depending on how many vertices each of the two components has.</li>
+</ol></li>
+<li>Next we will find all trees of order <span class="math inline">\(6\)</span>. You should be able to write down <span class="math inline">\(5\)</span> different possible degree sequences (theorem 4.3 helps narrow down the possibilities). Four of those have only one graph corresponding to them, while one of them has two non-isomorphic trees corresponding to it. You should end up with six possible non-isomorphic trees.</li>
+<li>This problem continues from the work on the trees of order <span class="math inline">\(6\)</span>. Recall from problem 3 that there are six such trees. In this problem we will try to determine what <em>automorphisms</em> these graphs have. Recall that an automorphism is an isomorphism from the graph to itself. So it amounts to a possible reshuffling of the vertices, but only in such a way as to maintain the edges. For example, a vertex of degree 1 can only go to a vertex of degree 1 under such a function. Also note that there is always at least one automorphism, namely the identity automorphism that sends each vertex to itself.
+<ol style="list-style-type: lower-alpha">
+<li>One of the trees has a vertex of degree <span class="math inline">\(5\)</span>. This tree has exactly <span class="math inline">\(5!=120\)</span> automorphisms. Describe those automorphisms.</li>
+<li>One of the trees is a path. This tree has exactly two automorphisms. Describe them and explain why they are the only ones.</li>
+<li>One of the trees has two vertices of degree <span class="math inline">\(3\)</span>. This tree has exactly <span class="math inline">\(2\times 2\times 2\)</span> automorphisms. Describe them and explain why they are the only ones.</li>
+<li>One of the trees has a vertex of degree <span class="math inline">\(4\)</span>. This tree has exactly <span class="math inline">\(3!=6\)</span> automorphisms. Describe them and explain why they are the only ones.</li>
+<li>The two remaining trees each have only one vertex of degree <span class="math inline">\(3\)</span> and all other vertices of smaller degree. Each of these trees has exactly two automorphisms. Describe them and explain why they are the only ones.</li>
+</ol></li>
+</ol>
+</body>
+</html>
