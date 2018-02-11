@@ -65,7 +65,7 @@ Thu
 Tue
   ~ [Cut-vertices (5.1)](notes/cut_vertices.md)
 
-    Blocks (5.2)
+    [Blocks (5.2)](notes/blocks.md)
 
 Thu
   ~ Vertex-Connectivity (5.3)
