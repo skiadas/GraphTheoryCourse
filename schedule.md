@@ -65,24 +65,20 @@ Thu
 Tue
   ~ [Cut-vertices (5.1)](notes/cut_vertices.md)
 
-    [Blocks (5.2)](notes/blocks.md)
-
 Thu
-  ~ Vertex-Connectivity (5.3)
+  ~ [Blocks (5.2)](notes/blocks.md)
 
     [Assignment 2](assignments/assignment2.md)
 
 ## Week  7 (02/19-02/23)
 
 Tue
-  ~ Eulerian Graphs (6.1)
-
-    Hamiltonian Graphs (6.2)
+  ~ Vertex-Connectivity (5.3)
 
     [Assignment 3](assignments/assignment3.md)
 
 Thu
-  ~ Midterm Chapters 1-4
+  ~ [Midterm Chapters 1-4](notes/midterm1studyGuide.md)
 
 ## Week  8 (02/26-03/02)
 
@@ -95,10 +91,14 @@ Thu
 ## Week  9 (03/05-03/09)
 
 Tue
-  ~ Strong Digraphs (7.1)
+  ~ Eulerian Graphs (6.1)
+
+    Hamiltonian Graphs (6.2)
 
 Thu
-  ~ Tournaments (7.2)
+  ~ Strong Digraphs (7.1)
+
+    Tournaments (7.2)
 
 ## Week  10 (03/12-03/16)
 
