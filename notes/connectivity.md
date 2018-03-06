@@ -1,0 +1,38 @@
+# Connectivity
+
+- Read section 5.3, pages 115-120 (top)
+    - What do we call a **vertex-cut** in a graph $G$?
+        - Does every graph have a vertex cut?
+        - Find vertex cuts in the Petersen graph.
+    - What is a **minimum vertex-cut**?
+        - Determine minimum vertex-cuts for the graphs in Figure 5.1.
+        - Find minimum vertex cuts in the Petersen graph.
+        - Can the cardinality of a minimum vertex-cut be 0? When?
+        - Can the cardinality of a minimum vertex-cut be 1? When?
+        - What are the minimum vertex-cuts in a path graph?
+        - What are the minimum vertex-cuts in a cycle graph?
+        - What are the minimum vertex-cuts in a complete graph?
+        - What are the minimum vertex-cuts in a complete bipartite graph?
+    - True or False: Every non-complete graph has a vertex-cut
+    - True or False: Every graph with a vertex-cut is non-complete
+    - In the Petersen graph, find a vertex-cut that is not a minimum vertex-cut, but such that no proper subset of it is a vertex-cut. (This would be called a *minimal* vertex-cut).
+    - Understand the following statement: If $U$ is a minimum vertex-cut, and $G_1$, ..., $G_k$ are the connected components of $G-U$, then each vertex of $U$ is connected to at least one vertex of each component.
+    - How is the **vertex-connectivity** $\kappa(G)$ of a graph defined?
+    - When is $\kappa(G) = 0$? When is it equal to $1$?
+    - Is there a relation between $\kappa(G)$ and $\delta(G)$?
+    - When do we say that a graph is **$k$-connected**?
+    - What do we call an **edge-cut**? What about a **minimal edge-cut**?
+        - Why is it the case that if we consider the graph with a minimal edge-cut removed, then the remaining graph has *exactly* 2 components?
+        - Give examples of minimal edge-cuts for path graphs.
+        - Give examples of minimal edge-cuts for cycle graphs.
+        - Give examples of minimal edge-cuts for complete graphs.
+    - What do we call a **minimum edge-cut**?
+        - Understand the difference between minimum and minimal edge cuts by looking at Figure 5.7.
+    - How is the **edge-connectivity** $\lambda(G)$ of a graph defined?
+    - When is $\lambda(G) = 0$? When is it equal to $1$?
+    - When do we call a graph **$k$-edge-connected**?
+    - Theorem 5.10: For every $n$, $\lambda(K_n) = n-1$.
+        - Idea: count the edges joining the two components of $G-X$.
+    - Theorem 5.11: For each graph, $\kappa(G) \leq \lambda(G) \leq \delta(G)$.
+    - Theorem 5.12: If $G$ is a cubic graph (3-regular graph), then $\kappa(G) = \lambda(G)$.
+    - Theorem 5.13: If $G$ is a graph of order $n$ and size $m\geq n-1$, then $\kappa(G) \leq \lfloor\frac{2m}{n}\rfloor$.

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+<link rel="stylesheet" href="https://skiadas.github.io/css/course.css" type="text/css" />
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+</head>
+<body>
+<h1 id="connectivity">Connectivity</h1>
+<ul>
+<li>Read section 5.3, pages 115-120 (top)
+<ul>
+<li>What do we call a <strong>vertex-cut</strong> in a graph <span class="math inline">\(G\)</span>?
+<ul>
+<li>Does every graph have a vertex cut?</li>
+<li>Find vertex cuts in the Petersen graph.</li>
+</ul></li>
+<li>What is a <strong>minimum vertex-cut</strong>?
+<ul>
+<li>Determine minimum vertex-cuts for the graphs in Figure 5.1.</li>
+<li>Find minimum vertex cuts in the Petersen graph.</li>
+<li>Can the cardinality of a minimum vertex-cut be 0? When?</li>
+<li>Can the cardinality of a minimum vertex-cut be 1? When?</li>
+<li>What are the minimum vertex-cuts in a path graph?</li>
+<li>What are the minimum vertex-cuts in a cycle graph?</li>
+<li>What are the minimum vertex-cuts in a complete graph?</li>
+<li>What are the minimum vertex-cuts in a complete bipartite graph?</li>
+</ul></li>
+<li>True or False: Every non-complete graph has a vertex-cut</li>
+<li>True or False: Every graph with a vertex-cut is non-complete</li>
+<li>In the Petersen graph, find a vertex-cut that is not a minimum vertex-cut, but such that no proper subset of it is a vertex-cut. (This would be called a <em>minimal</em> vertex-cut).</li>
+<li>Understand the following statement: If <span class="math inline">\(U\)</span> is a minimum vertex-cut, and <span class="math inline">\(G_1\)</span>, …, <span class="math inline">\(G_k\)</span> are the connected components of <span class="math inline">\(G-U\)</span>, then each vertex of <span class="math inline">\(U\)</span> is connected to at least one vertex of each component.</li>
+<li>How is the <strong>vertex-connectivity</strong> <span class="math inline">\(\kappa(G)\)</span> of a graph defined?</li>
+<li>When is <span class="math inline">\(\kappa(G) = 0\)</span>? When is it equal to <span class="math inline">\(1\)</span>?</li>
+<li>Is there a relation between <span class="math inline">\(\kappa(G)\)</span> and <span class="math inline">\(\delta(G)\)</span>?</li>
+<li>When do we say that a graph is <strong><span class="math inline">\(k\)</span>-connected</strong>?</li>
+<li>What do we call an <strong>edge-cut</strong>? What about a <strong>minimal edge-cut</strong>?
+<ul>
+<li>Why is it the case that if we consider the graph with a minimal edge-cut removed, then the remaining graph has <em>exactly</em> 2 components?</li>
+<li>Give examples of minimal edge-cuts for path graphs.</li>
+<li>Give examples of minimal edge-cuts for cycle graphs.</li>
+<li>Give examples of minimal edge-cuts for complete graphs.</li>
+</ul></li>
+<li>What do we call a <strong>minimum edge-cut</strong>?
+<ul>
+<li>Understand the difference between minimum and minimal edge cuts by looking at Figure 5.7.</li>
+</ul></li>
+<li>How is the <strong>edge-connectivity</strong> <span class="math inline">\(\lambda(G)\)</span> of a graph defined?</li>
+<li>When is <span class="math inline">\(\lambda(G) = 0\)</span>? When is it equal to <span class="math inline">\(1\)</span>?</li>
+<li>When do we call a graph <strong><span class="math inline">\(k\)</span>-edge-connected</strong>?</li>
+<li>Theorem 5.10: For every <span class="math inline">\(n\)</span>, <span class="math inline">\(\lambda(K_n) = n-1\)</span>.
+<ul>
+<li>Idea: count the edges joining the two components of <span class="math inline">\(G-X\)</span>.</li>
+</ul></li>
+<li>Theorem 5.11: For each graph, <span class="math inline">\(\kappa(G) \leq \lambda(G) \leq \delta(G)\)</span>.</li>
+<li>Theorem 5.12: If <span class="math inline">\(G\)</span> is a cubic graph (3-regular graph), then <span class="math inline">\(\kappa(G) = \lambda(G)\)</span>.</li>
+<li>Theorem 5.13: If <span class="math inline">\(G\)</span> is a graph of order <span class="math inline">\(n\)</span> and size <span class="math inline">\(m\geq n-1\)</span>, then <span class="math inline">\(\kappa(G) \leq \lfloor\frac{2m}{n}\rfloor\)</span>.</li>
+</ul></li>
+</ul>
+</body>
+</html>

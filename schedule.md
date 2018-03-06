@@ -73,7 +73,7 @@ Thu
 ## Week  7 (02/19-02/23)
 
 Tue
-  ~ Vertex-Connectivity (5.3)
+  ~ Review
 
     [Assignment 3](assignments/assignment3.md)
 
@@ -91,22 +91,24 @@ Thu
 ## Week  9 (03/05-03/09)
 
 Tue
+  ~ [Connectivity (5.3)](notes/connectivity.md)
+
+Thu
   ~ Eulerian Graphs (6.1)
 
     Hamiltonian Graphs (6.2)
 
-Thu
+## Week  10 (03/12-03/16)
+
+Tue
   ~ Strong Digraphs (7.1)
 
     Tournaments (7.2)
 
-## Week  10 (03/12-03/16)
-
-Tue
+Thu
   ~ Matchings (8.1)
 
-Thu
-  ~ Factorization (8.2)
+    Factorization (8.2)
 
 ## Week  11 (03/19-03/23)
 
