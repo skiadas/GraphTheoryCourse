@@ -94,34 +94,38 @@ Tue
   ~ [Connectivity (5.3)](notes/connectivity.md)
 
 Thu
-  ~ Eulerian Graphs (6.1)
-
-    Hamiltonian Graphs (6.2)
+  ~ [Connectivity continued (5.3)](notes/connectivity.md)
 
 ## Week  10 (03/12-03/16)
 
 Tue
+  ~ [Eulerian Graphs (6.1)](notes/eulerian_graphs.md)
+
+    [Activity Sheet 7](activities/activities7-eulerian.md)
+
+    Hamiltonian Graphs (6.2)
+
+Thu
   ~ Strong Digraphs (7.1)
 
     Tournaments (7.2)
 
-Thu
+## Week  11 (03/19-03/23)
+
+Tue
   ~ Matchings (8.1)
 
     Factorization (8.2)
 
-## Week  11 (03/19-03/23)
-
-Tue
-  ~ Decompositions (8.3)
-
 Thu
-  ~ Midterm 2 (Chapters 5-8)
+  ~ Midterm 2 (Chapters 5-7)
 
 ## Week  12 (03/26-03/30)
 
 Tue
-  ~ Planar Graphs (9.1)
+  ~ Decompositions (8.3)
+
+    Planar Graphs (9.1)
 
 Thu
   ~ Discussion of the Four Color Theorem (10.1)
