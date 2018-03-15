@@ -103,19 +103,15 @@ Tue
 
     [Activity Sheet 7](activities/activities7-eulerian.md)
 
-    Hamiltonian Graphs (6.2)
-
 Thu
-  ~ Strong Digraphs (7.1)
-
-    Tournaments (7.2)
+  ~ [Hamiltonian Graphs (6.2)](notes/hamiltonian_graphs.md)
 
 ## Week  11 (03/19-03/23)
 
 Tue
-  ~ Matchings (8.1)
+  ~ Strong Digraphs (7.1)
 
-    Factorization (8.2)
+    Tournaments (7.2)
 
 Thu
   ~ Midterm 2 (Chapters 5-7)
@@ -123,17 +119,21 @@ Thu
 ## Week  12 (03/26-03/30)
 
 Tue
+  ~ Matchings (8.1)
+
+    Factorization (8.2)
+
+Thu
   ~ Decompositions (8.3)
 
     Planar Graphs (9.1)
 
-Thu
-  ~ Discussion of the Four Color Theorem (10.1)
-
 ## Week  13 (04/01-04/06)
 
 Tue
-  ~ Vertex Coloring (10.2)
+  ~ Discussion of the Four Color Theorem (10.1)
+
+    Vertex Coloring (10.2)
 
 Thu
   ~ Edge Coloring (10.3)

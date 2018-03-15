@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+<link rel="stylesheet" href="https://skiadas.github.io/css/course.css" type="text/css" />
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+</head>
+<body>
+<h1 id="hamiltonian-graphs">Hamiltonian Graphs</h1>
+<ul>
+<li>Read section 6.2, pages 140-150</li>
+<li>What is a <strong>Hamiltonian cycle</strong> in a graph? What is a <strong>Hamiltonian graph</strong>?
+<ul>
+<li>Do path-/cycle-/complete- graphs have Hamiltonian cycles?</li>
+<li>Do complete bipartite graphs have Hamiltonian cycles?</li>
+<li>Can a Hamiltonian graph contain a cut vertex? Can it contain a bridge?</li>
+</ul></li>
+<li>What is an <strong>Hamiltonian path</strong>?
+<ul>
+<li>Give examples of graphs that have an Hamiltonian path but no Hamiltonian cycle. Can you find a smallest possible example?</li>
+</ul></li>
+<li>Show that <span class="math inline">\(K_{3,3}\)</span> has a Hamiltonian cycle.
+<ul>
+<li>Do all complete bipartite graphs have a Hamiltonian cycle? If not, which ones do?</li>
+</ul></li>
+<li>Theorem 6.4: The Petersen graph is non-Hamiltonian.
+<ul>
+<li>What about the graph that is similar, but where the structure of the inner 5 vertices matches that of the outer 5?</li>
+</ul></li>
+<li>Theorem 6.5: If <span class="math inline">\(G\)</span> is a Hamiltonian graph, then for every non-empty proper subset <span class="math inline">\(S\)</span> of vertices of <span class="math inline">\(G\)</span> we have that the number of components of <span class="math inline">\(G-S\)</span> is equal to <span class="math inline">\(|S|\)</span>.
+<ul>
+<li>For each component <span class="math inline">\(G_i\)</span>, the vertex in the Hamiltonian cycle following the last vertex in <span class="math inline">\(G_i\)</span> must belong to <span class="math inline">\(S\)</span>.</li>
+<li>What is the contrapositive statement? Show an example of its use (e.g. bipartite graphs).</li>
+<li>How does the contra-positive relate to a cut vertex?</li>
+<li>Can the contrapositive be applied to prove that the Petersen graph is non-Hamiltonian?</li>
+</ul></li>
+<li>Theorem 6.6: If <span class="math inline">\(G\)</span> has order at least 3, and the degrees of any two nonadjacent vertices add up to at least the order <span class="math inline">\(n\)</span>, then <span class="math inline">\(G\)</span> is Hamiltonian.
+<ul>
+<li>Start with such a graph that is not Hamiltonian, add as many edges as possible without making the graph Hamiltonian.</li>
+<li>Look at a pair of non-adjacent vertices <span class="math inline">\(x\)</span>, <span class="math inline">\(y\)</span> in this graph. Adding the edge <span class="math inline">\(xy\)</span> gives a Hamiltonian cycle, which must contain the edge <span class="math inline">\(xy\)</span>. So there is a Hamiltonian path from <span class="math inline">\(x\)</span> to <span class="math inline">\(y\)</span> in the graph.</li>
+<li>For each vertex on this path that is adjacent to <span class="math inline">\(x\)</span>, there is one (its predecessor) that is not adjacent to <span class="math inline">\(y\)</span> (Figure 6.17). Then the degrees don’t add to more than <span class="math inline">\(n-1\)</span></li>
+<li>Show this theorem’s bound is sharp.</li>
+</ul></li>
+<li>Corollary 6.7: If <span class="math inline">\(G\)</span> has order <span class="math inline">\(n\geq 3\)</span> and for each vertex <span class="math inline">\(v\)</span> we have <span class="math inline">\(\deg(v)\geq(n/2)\)</span>, then <span class="math inline">\(G\)</span> is Hamiltonian.</li>
+<li>Theorem 6.8: If <span class="math inline">\(u,v\)</span> are non-adjacent vertices of a graph <span class="math inline">\(G\)</span>, and their degrees add to at least <span class="math inline">\(n\)</span>, then <span class="math inline">\(G\)</span> is Hamiltonian if and only of <span class="math inline">\(G+uv\)</span> is Hamiltonian.</li>
+<li>What is the <strong>closure</strong> <span class="math inline">\(C(G)\)</span> of a graph <span class="math inline">\(G\)</span>?</li>
+<li>A graph is Hamiltonian if and only if its closure is Hamiltonian.</li>
+<li>Practice Problems: 6.10, 6.11, 6.12, 6.13, 6.15, 6.16</li>
+</ul>
+</body>
+</html>

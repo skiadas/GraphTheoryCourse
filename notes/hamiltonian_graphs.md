@@ -1,0 +1,28 @@
+# Hamiltonian Graphs
+
+- Read section 6.2, pages 140-150
+- What is a **Hamiltonian cycle** in a graph? What is a **Hamiltonian graph**?
+    - Do path-/cycle-/complete- graphs have Hamiltonian cycles?
+    - Do complete bipartite graphs have Hamiltonian cycles?
+    - Can a Hamiltonian graph contain a cut vertex? Can it contain a bridge?
+- What is an **Hamiltonian path**?
+    - Give examples of graphs that have an Hamiltonian path but no Hamiltonian cycle. Can you find a smallest possible example?
+- Show that $K_{3,3}$ has a Hamiltonian cycle.
+    - Do all complete bipartite graphs have a Hamiltonian cycle? If not, which ones do?
+- Theorem 6.4: The Petersen graph is non-Hamiltonian.
+    - What about the graph that is similar, but where the structure of the inner 5 vertices matches that of the outer 5?
+- Theorem 6.5: If $G$ is a Hamiltonian graph, then for every non-empty proper subset $S$ of vertices of $G$ we have that the number of components of $G-S$ is equal to $|S|$.
+    - For each component $G_i$, the vertex in the Hamiltonian cycle following the last vertex in $G_i$ must belong to $S$.
+    - What is the contrapositive statement? Show an example of its use (e.g. bipartite graphs).
+    - How does the contra-positive relate to a cut vertex?
+    - Can the contrapositive be applied to prove that the Petersen graph is non-Hamiltonian?
+- Theorem 6.6: If $G$ has order at least 3, and the degrees of any two nonadjacent vertices add up to at least the order $n$, then $G$ is Hamiltonian.
+    - Start with such a graph that is not Hamiltonian, add as many edges as possible without making the graph Hamiltonian.
+    - Look at a pair of non-adjacent vertices $x$, $y$ in this graph. Adding the edge $xy$ gives a Hamiltonian cycle, which must contain the edge $xy$. So there is a Hamiltonian path from $x$ to $y$ in the graph.
+    - For each vertex on this path that is adjacent to $x$, there is one (its predecessor) that is not adjacent to $y$ (Figure 6.17). Then the degrees don't add to more than $n-1$
+    - Show this theorem's bound is sharp.
+- Corollary 6.7: If $G$ has order $n\geq 3$ and for each vertex $v$ we have $\deg(v)\geq(n/2)$, then $G$ is Hamiltonian.
+- Theorem 6.8: If $u,v$ are non-adjacent vertices of a graph $G$, and their degrees add to at least $n$, then $G$ is Hamiltonian if and only of $G+uv$ is Hamiltonian.
+- What is the **closure** $C(G)$ of a graph $G$?
+- A graph is Hamiltonian if and only if its closure is Hamiltonian.
+- Practice Problems: 6.10, 6.11, 6.12, 6.13, 6.15, 6.16
