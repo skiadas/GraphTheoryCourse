@@ -114,26 +114,27 @@ Tue
     Tournaments (7.2)
 
 Thu
-  ~ Midterm 2 (Chapters 5-7)
-
-## Week  12 (03/26-03/30)
-
-Tue
   ~ Matchings (8.1)
 
     Factorization (8.2)
 
-Thu
+
+## Week  12 (03/26-03/30)
+
+Tue
   ~ Decompositions (8.3)
 
     Planar Graphs (9.1)
 
-## Week  13 (04/01-04/06)
-
-Tue
+Thu
   ~ Discussion of the Four Color Theorem (10.1)
 
     Vertex Coloring (10.2)
+
+## Week  13 (04/02-04/06)
+
+Tue
+  ~ Midterm 2 (Chapters 5-7)
 
 Thu
   ~ Edge Coloring (10.3)
