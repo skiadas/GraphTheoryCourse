@@ -109,20 +109,19 @@ Thu
 ## Week  11 (03/19-03/23)
 
 Tue
-  ~ Strong Digraphs (7.1)
-
-    Tournaments (7.2)
+  ~ [Strong Digraphs (7.1)](notes/strong_digraphs.md)
 
 Thu
-  ~ Matchings (8.1)
-
-    Factorization (8.2)
-
+  ~ Tournaments (7.2)
 
 ## Week  12 (03/26-03/30)
 
 Tue
-  ~ Decompositions (8.3)
+  ~ Matchings (8.1)
+
+    Factorization (8.2)
+
+    Decompositions (8.3)
 
     Planar Graphs (9.1)
 
