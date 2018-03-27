@@ -1,0 +1,22 @@
+# Tournaments
+
+- Read section 7.2, pages 169-175
+- What graphs are called **tournaments**?
+- What are all the order 3 and order 4 tournaments, up to isomorphism?
+- Which of these tournaments are strong (strongly connected)?
+- What tournaments are called **transitive**?
+    - Which of the order 3 and 4 tournaments are transitive?
+    - Up to isomorphism, there is a unique transitive graph of any given order.
+- Theorem 7.6: A tournament is transitive if and only if it contains no cycles.
+- Theorem 7.7: If $u$ is a vertex of maximum out-degree in a tournament, then its distance to any other vertex is at most $2$.
+    - Idea: If a vertex is adjacent *to* $u$ rather than *from* it, then it must be adjacent from one of the vertices adjacent from $u$.
+- What is the practical interpretation of this theorem in terms of wins/losses?
+- Theorem 7.8: Every tournament contains a Hamiltonian path
+    - Start with a path of greatest length. If a vertex is not in it, it must be adjacent from the first vertex in the path and adjacent to the last vertex. Find two consecutive vertices of the path with the same property, and add the new vertex inbetween them.
+- What is the practical interpretation of this theorem in terms of wins/losses?
+- Theorem 7.9: Every vertex of a nontrivial strong tournament is part of a triangle.
+- Theorem 7.10: A nontrivial tournament is Hamiltonian if and only if it is strong.
+    - Consider a maximum-length cycle. Show that every vertex not in the cycle must either be adjacent to all vertices or adjacent from all vertices.
+    - If the tournament is strong then both types must exist. Use this to build a longer cycle.
+- Theorem 7.11: In a strong tournament of order at least 4, there is a vertex whose removal results in a strong tournament.
+- Practice problems: 7.7, 7.8, 7.9, 7.10, 7.12, 7.13
