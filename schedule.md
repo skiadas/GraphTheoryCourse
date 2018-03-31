@@ -120,6 +120,14 @@ Tue
   ~ [Tournaments (7.2)](notes/tournaments.md)
 
 Thu
+  ~ [Tournaments continued (7.2)](notes/tournaments.md)
+
+## Week  13 (04/02-04/06)
+
+Tue
+  ~ [Midterm 2 (Chapters 5-7)](notes/midterm2studyGuide.md)
+
+Thu
   ~ Matchings (8.1)
 
     Factorization (8.2)
@@ -128,13 +136,7 @@ Thu
 
     Planar Graphs (9.1)
 
-## Week  13 (04/02-04/06)
-
-Tue
-  ~ Midterm 2 (Chapters 5-7)
-
-Thu
-  ~ Discussion of the Four Color Theorem (10.1)
+    Discussion of the Four Color Theorem (10.1)
 
     Vertex Coloring (10.2)
 
@@ -146,4 +148,4 @@ Tue
   ~ Ramsey Numbers (11.1)
 
 Thu
-  ~ Center of a Graph (12.1), Distant Vertices (12.2)
+  ~
