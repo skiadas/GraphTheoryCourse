@@ -1,0 +1,21 @@
+# Matchings
+
+- Read section 8.1, pages 185-192
+- When is a set of edges in a graph called **independent**/**a matching**?
+- Example 8.2 discusses an obvious problem when trying to find a matching in a bipartite graph. What is this problem?
+- What is the **neighborhood** $N(X)$ of a set $X$ of vertices in a graph $G$?
+- When do we say that a graph $G$ satisfies **Hall's condition**?
+- Is Hall's condition satisfied in complete bipartite sets? cycle graphs that are also bipartite? path graphs that are also bipartite?
+- Theorem 8.3: A bipartite graph has a matching of maximum possible size if and only if it satisfies Hall's condition.
+- Theorem 8.4: A collection of nonempty finite sets has a system of distinct representatives if and only if for each integer $k$ the union of any $k$ of these sets contains at least $k$ elements.
+- Theorem 8.5 (Marriage Theorem): In a collection of $r$ women and $r$ men, a total of $r$ marriages between acquainted couples can be arranged if and only if for each integer $k$ every subset of $k$ women is collectively acquainted with at least $k$ men.
+- Theorem 8.6: Every $r$-regular bipartite graph has a perfect matching.
+- What is the **edge independence number** $\alpha'(G)$ of a graph?
+    - What is the largest possible value for $\alpha'(G)$?
+    - What are $\alpha'(C_n)$, $\alpha'(K_n)$, $\alpha'(K_{r,s})$?
+- What is the **edge covering number** $\beta'(G)$ of a graph?
+    - What are $\beta'(C_n)$, $\beta'(K_n)$, $\beta'(K_{r,s})$?
+- Theorem 8.7: For every graph $G$ of order $n$ with no isolated vertices, we have $\alpha'(G) + \beta'(G) = n$.
+- What are the **vertex independent number** and the **vertex covering number** of a graph? Give examples.
+- Work on example 8.9
+- Practice problems: 8.1, 8.2, 8.5, 8.6

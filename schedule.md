@@ -128,24 +128,14 @@ Tue
   ~ [Midterm 2 (Chapters 5-7)](notes/midterm2studyGuide.md)
 
 Thu
-  ~ Matchings (8.1)
-
-    Factorization (8.2)
-
-    Decompositions (8.3)
-
-    Planar Graphs (9.1)
-
-    Discussion of the Four Color Theorem (10.1)
-
-    Vertex Coloring (10.2)
-
-    Edge Coloring (10.3)
+  ~ [Matchings (8.1)](notes/matchings.md)
 
 ## Week  14 (04/09-04/13)
 
 Tue
-  ~ Ramsey Numbers (11.1)
+  ~ Planar Graphs (9.1)
 
 Thu
-  ~
+  ~ Discussion of the Four Color Theorem (10.1)
+
+    Vertex Coloring (10.2)
