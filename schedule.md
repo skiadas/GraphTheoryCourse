@@ -139,3 +139,5 @@ Thu
   ~ Discussion of the Four Color Theorem (10.1)
 
     Vertex Coloring (10.2)
+
+    [Final Study guide](notes/midterm3studyGuide.md)
