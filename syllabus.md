@@ -28,7 +28,27 @@ Class times
 
 ## Course Description
 
-TODO
+Graph Theory is the study of the mathematical objects known as graphs. Graphs consist simply of 'vertices' and 'edges' connecting these vertices, and as such have a wide range of applications from the study of social networks to the intricate details of register allocation in programming language compilers. In this course we will be introduced to the fundamental definitions and theorems pertaining graphs and get an appreciation for the very diverse kinds of graphs that are available.
+
+The topic of Graph Theory is also an excellent opportunity for students to develop their mathematical abilities in terms of understanding definitions and developing proofs for theorems, as well as building mathematical intuition. The simple description of most definitions and theorems provides ample opportunity for exploration.
+
+In this course you will
+
+- understand the basic structures and theorems of Graph Theory,
+- explore a plethora of interesting graph examples and properties,
+- enhance your ability to both understand and construct mathematical proofs,
+- experience the work mathematicians do as they explore statements whose validity is not known in advance.
+
+### Topics
+
+As time permits, the following topics will be covered:
+
+1. Basic definitions of graphs, connectedness, degree sequences etc.
+2. Acyclic graphs in general and trees in particular.
+3. The degree of connectivity of a graph and various ways to measure it.
+4. Eulerian and Hamiltonian graphs and their properties.
+5. Directed graphs and tournaments.
+6. Planar graphs and graph coloring.
 
 ## Course Components
 
@@ -42,13 +62,11 @@ You are expected to attend every class meeting. You are only allowed to miss 3 c
 
 ### Homework Assignments
 
-There will be regular written assignments, about once a week, in addition to numerous practice problems that you are expected to work on. Homework assignments will count for 25% of the final grade.
+There will be regular written assignments, in addition to numerous practice problems that you are expected to work on. Homework assignments will count for 25% of the final grade.
 
 ### Exams
 
-TODO
-
-There will be two midterms, tentatively scheduled for TODO and TODO, and a final during finals week. **You have to be here for the exams**. If you have conflicts with these days, let me know as soon as possible. Do not plan your vacation before you are aware of the finals schedule.
+There will be two midterms, tentatively scheduled for 2/22 and 4/3, and a final during finals week. **You have to be here for the exams**. If you have conflicts with these days, let me know as soon as possible. Do not plan your vacation before you are aware of the finals schedule.
 
 ### Getting Help
 
